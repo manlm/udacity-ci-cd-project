@@ -18,6 +18,7 @@ def scale(payload):
     scaler = StandardScaler().fit(payload)
     
     
+    
     scaled_adhoc_predict = scaler.transform(payload)
     return scaled_adhoc_predict
 
