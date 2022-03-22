@@ -46,6 +46,13 @@ Devops pipeline.
 3. Run `make all` command, this will install project requirements from the requirements.txt file, run pytest and pylint
    <img src="./images/cloud-shell-pass-test.png">
 
+### Setup Azure App Service
+
+1. In the command.sh file, replace <your-appservice> with name of the app service
+2. Run the command.sh file
+3. After run successful, we can navigate to the web app url and see the output:
+   <img src="./images/web.png">
+
 ### Test run using GitHub action
 
 1. Output of the test run using GitHub action:
@@ -66,10 +73,14 @@ Devops pipeline.
    <img src="./images/make-predict.png">
 
 ### Locust load test
+
 <img src="./images/locust.png">
 
 ## Enhancements
-In the future, I would add the health check load test step to the pipeline to make sure the application is deployed and run properly. I think the health check is a must-do after every deployment. And the load test could help us see if the performance is affected by the new code we add.
+
+In the future, I would add the health check load test step to the pipeline to make sure the application is deployed and
+run properly. I think the health check is a must-do after every deployment. And the load test could help us see if the
+performance is affected by the new code we add.
 
 ## Demo
 
