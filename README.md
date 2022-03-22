@@ -8,10 +8,8 @@ Devops pipeline.
 
 ## Project Plan
 
-<TODO: Project Plan
-
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* [Trello](https://trello.com/b/W1xpemCY/project-task)
+* [Project Plan](./file/Project_Plan.xlsx)
 
 ## Dependencies
 
