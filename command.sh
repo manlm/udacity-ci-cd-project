@@ -1,2 +1,2 @@
 #!/bin/bash
-az webapp up --sku F1 -n <your-appservice>
+az webapp up -n <your-appservice> --resource-group <your-resource-group> --runtime "python|3.7" --location "centralus" --sku F1
